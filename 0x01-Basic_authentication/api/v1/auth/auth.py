@@ -9,16 +9,16 @@ class Auth:
     """ Auth Class
     """
     def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
-        """ TODO require_auth implement
+        """ require_auth implement
         """
         return False
 
     def authorization_header(self, request=None) -> str:
-        """ TODO authorization_header implementation
+        """ authorization_header implementation
         """
         return None
 
     def current_user(self, request=None) -> TypeVar('User'):
-        """ TODO current_user implementation
+        """ current_user implementation
         """
         return None
