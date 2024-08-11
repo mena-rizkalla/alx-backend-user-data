@@ -2,7 +2,8 @@
 """ Session auth
 """
 
-import uuid
+import uuid import uuid4
+from flask import request
 from api.v1.auth.auth import Auth
 from models.user import User
 
